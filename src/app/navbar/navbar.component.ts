@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
-  constructor() { }
+	projectName:string;
+  constructor() { 
   this.projectName = "ClassworkDay1"
+}
   ngOnInit(): void {
   }
 
